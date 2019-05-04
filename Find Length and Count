@@ -1,0 +1,2 @@
+word_to_be_counted = input("Your word ")
+print(len(word_to_be_counted), " ", word_to_be_counted.count("a", 0, 10))
