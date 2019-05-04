@@ -1,2 +1,3 @@
-word_to_be_counted = input("Your word ")
-print(len(word_to_be_counted), " ", word_to_be_counted.count("a", 0, 10))
+word = input("Your word ")
+char_counting_for = input("Which character are you looking for? ")
+print("Your word is", len(word), "characters long, \nand the character",char_counting_for, "appears " , word.count(char_counting_for, 0, len(word)), "times. ")
