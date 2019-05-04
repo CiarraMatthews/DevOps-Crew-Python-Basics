@@ -1,0 +1,3 @@
+word_to_cut_down = input("Type in a word ")
+suffix_to_remove = input("And the word you want to take out ")
+print(word_to_cut_down.strip(suffix_to_remove))
