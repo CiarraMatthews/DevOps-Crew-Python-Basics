@@ -1,0 +1,2 @@
+word_to_be_uppercased = input("Your word ")
+print(word_to_be_uppercased.upper())
