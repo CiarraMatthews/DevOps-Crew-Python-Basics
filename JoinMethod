@@ -1,0 +1,3 @@
+word_to_add_onto = input("Type a word ")
+suffix_to_add = "er"
+print(suffix_to_add.join(str(word_to_add_onto)))
