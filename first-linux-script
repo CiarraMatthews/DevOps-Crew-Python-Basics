@@ -1,0 +1,12 @@
+ls
+mkdir test
+touch test/rats.txt
+mkdir test1
+touch test1/mice.txt
+mkdir test2
+touch test2/yourface.txt
+
+sudo head -n5 /etc/shadow > test/rats.txt
+sudo tail -n5 /etc/shadow > test1/mice.txt
+sudo cat /etc/shadow > test2/yourface.txt
+cp test/rats.txt /tmp
